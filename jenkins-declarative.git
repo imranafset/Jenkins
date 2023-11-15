@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Git Commit') {
             steps {
-                 Jenkins.git'
+                 https://github.com/imranafset/Jenkins/blob/main/jenkins-declarative.git
            }
         }
     }
