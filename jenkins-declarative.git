@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Git Commit') {
             steps {
-                 git branch: 'main', url: 'https://github.com/imranafset/Jenkins.git'
+                 echo "test"
            }
         }
     }
