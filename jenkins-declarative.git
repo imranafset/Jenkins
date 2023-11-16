@@ -5,6 +5,9 @@ pipeline {
             steps {
                  echo "test"
            }
+        stage('maven build '){
+            steps {
+              sh 'maven --version'
         }
     }
 }
